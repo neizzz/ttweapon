@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npm run start --workspaces --if-present"
+    "start": "npm run start --workspaces --if-present",
+    "start:client": "npm run start --workspace @ttweapon/client"
   },
   "engines": {
     "node": ">=22.11.0"
